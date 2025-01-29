@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment(2)</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <ul>
+                <li><a href="table.html">Home</a></li>
+                <li class="media-dropdown">
+                    <a href="media.html">Media</a>
+                    <div class="dropdown-content">
+                        <a href="#audio">Audio</a>
+                        <a href="#video">Video</a>
+                        <a href="#picture">Picture</a>
+                        <a href="#iframe">Iframe</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="audio"><strong>Audio Element</strong></h2>
+            <audio controls src="./assets/audio/Taiye.recording.m4a"></audio>
+        </section>
+        <section>
+            <h2 id="video"> Video Element</h2>
+            <video controls src="./assets/video/WhatsApp Video 2025-01-09 at 11.10.50 AM.mp4"></video>
+        </section>
+        <section>
+            <h2 id="picture">Picture Element</h2>
+            <picture>
+                <source srcset="assets/images/desktop_image.jpg" media="(min-width: 1024px)">
+                <source srcset="assets/images/pexels-diva-29817540.jpg" media="(min-width: 768px)">
+                <source srcset="assets/images/mobile_image.jpg" media="(min-width: 320px)">
+                <img src="assets/images/mobile_image.jpg" alt="Responsive Image">
+            </picture>
+        </section>
+        <section>
+            <h2 id="iframe">Iframe Element</h2>
+            <iframe src="https://www.youtube.com/embed/vkZTngSUpXU?si=27GvfxULww-VWqd4" frameborder="0" title="Why Altschool Africa"></iframe>
+        </section>
+    </main> <br><br><br>
+    <footer id="footer">
+        <address>
+            Lagos, Nigeria<br>
+            ohiokharafiyin@gmail.com
+        </address>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
