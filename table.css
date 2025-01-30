@@ -32,34 +32,38 @@ nav a{
 table {
     width: 100%;
     max-width: 800px;
+    height: 450px;
     border-collapse: collapse;
     background-color: white;
-    box-shadow: 0 0 10px rgba(243, 240, 240, 0.1);
+    box-shadow: 0 0 10px rgba(128, 64, 64, 0.712);
 }
 caption {
-    font-size: 1.2em;
+    font-size: 22px;
     margin-bottom: 10px;
-    background-color: #333;
+    background-color: #2089c5;
     color: white;
     padding: 10px;
 }
 th {
-    background-color: #0066cc;
+    background-color: #3e4b58;
     color: white;
     padding: 10px;
-    text-align: left;
+    text-align: center;
+    font-size: 25px;
 }
 td {
     padding: 10px;
     border: 1px solid #ddd;
+    font-size: 22px;
 }
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 footer {
-    width: 85%;
+    margin-top: 20px;
+    width: 65%;
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #e0d7d7;
+    color: #333;
     padding: 10px;
 }
